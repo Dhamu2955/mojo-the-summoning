@@ -24,31 +24,31 @@ async function seed () {
       name: 'Arcturus Spellweaver',
       mojo: 100,
       stamina: 10,
-      imgUrl: 'http://localhost:5000/img/arcturus-spellweaver.jpg'
+      imgUrl: 'http://localhost:5001/img/arcturus-spellweaver.jpg'
     },
     {
       name: 'Nimue Mistral',
       mojo: 100,
       stamina: 10,
-      imgUrl: 'http://localhost:5000/img/nimue-mistral.jpg'
+      imgUrl: 'http://localhost:5001/img/nimue-mistral.jpg'
     },
     {
       name: 'Theron Thunderstrike',
       mojo: 100,
       stamina: 10,
-      imgUrl: 'http://localhost:5000/img/theron-thunderstrike.jpg'
+      imgUrl: 'http://localhost:5001/img/theron-thunderstrike.jpg'
     },
     {
       name: 'Lirien Moonshadow',
       mojo: 100,
       stamina: 10,
-      imgUrl: 'http://localhost:5000/img/lirien-moonshadow.jpg'
+      imgUrl: 'http://localhost:5001/img/lirien-moonshadow.jpg'
     },
     {
       name: 'Alaric Flamecaller',
       mojo: 100,
       stamina: 10,
-      imgUrl: 'http://localhost:5000/img/alaric-flamecaller.jpg'
+      imgUrl: 'http://localhost:5001/img/alaric-flamecaller.jpg'
     }
   ]
 

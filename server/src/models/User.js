@@ -5,6 +5,4 @@ const User = db.define("User", {
     username: DataTypes.STRING,
 }) 
 
-
-
 module.exports = User;

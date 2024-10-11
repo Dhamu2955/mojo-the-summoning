@@ -29,7 +29,7 @@ describe('Deck', () => {
 
   it('requires a name', async () => {
     try {
-      await Deck.create({ xp: 50 }); // Attempt to create a deck without a name
+      await Deck.create({ xp: 50 });
     } catch (error) {
       expect(error.name).toBe('SequelizeValidationError');
     }
@@ -37,7 +37,7 @@ describe('Deck', () => {
 
   it('requires xp to be a number', async () => {
     try {
-      await Deck.create({ name: 'Knights', xp: 'hello' }); // Attempt to create a deck with a non-numeric xp
+      await Deck.create({ name: 'Knights', xp: 'hello' });
     } catch (error) {
       expect(error.name).toBe('SequelizeValidationError');
     }
